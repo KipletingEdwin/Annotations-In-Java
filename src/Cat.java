@@ -11,5 +11,9 @@ public class Cat {
         System.out.println("Meow!");
     }
 
+    public  void  eat(){
+        System.out.println("Munch");
+    }
+
 
 }
