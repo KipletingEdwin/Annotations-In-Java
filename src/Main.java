@@ -3,8 +3,14 @@
 public class Main {
     public static void main(String[] args) {
 
-        @SuppressWarnings("unused")
+//        @SuppressWarnings("unused")
         Cat myCat = new Cat("Stella");
+
+        if(myCat.getClass().isAnnotationPresent(VeryImportant.class)){
+            System.out.println("This thing is very important");
+        } else {
+            System.out.println("This thing is not very important");
+        }
 
     }
 }
