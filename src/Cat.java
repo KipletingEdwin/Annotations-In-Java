@@ -7,5 +7,9 @@ public class Cat {
         this.name = name;
     }
 
+    public  void meow(){
+        System.out.println("Meow!");
+    }
+
 
 }
