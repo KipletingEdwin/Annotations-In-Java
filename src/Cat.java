@@ -1,3 +1,4 @@
+@VeryImportant
 public class Cat {
 
     String name;
